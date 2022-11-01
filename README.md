@@ -17,14 +17,14 @@ The current available version (firefox addons) is 1.0.2
 The version available in the store is never up to date, because we keep developing this Extension every day.
 The version available in the store will be updated weekly.
 
-## To-Dos
+## To-Dos for Release 1.0.3
 
-- [ ] Fix the [Bugs](#known-bugs)
+- [ ] Fix the [Bugs](#known-bugs) *(optional)*
 - [X] Inject a Snowflake into YouTube
 - [X] Inject a Snowflake into Wikipedia
 - [X] Inject a Snowflake into the New York Times
-- [ ] Inject a Snowflake into Spiegel
-- [ ] Inject a Snowflake into Zeit
+- [X] Inject a Snowflake into Spiegel
+- [X] Inject a Snowflake into Zeit
 - [ ] Inject a Snowflake into Amazon
 
 ## Known Bugs
