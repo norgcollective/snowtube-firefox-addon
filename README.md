@@ -1,5 +1,5 @@
 # SnowTube
-[![Download the Addon at FirefoxAddons](https://img.shields.io/badge/Download-Firefox%20Addon-orange?style=for-the-badge&logo=firefox-browser)](https://addons.mozilla.org/firefox/addon/snowtube/)
+[![Download the Addon at FirefoxAddons](https://img.shields.io/badge/Download-Firefox%20Addon-orange?style=for-the-badge&logo=firefox-browser)](https://addons.mozilla.org/firefox/addon/snowify/)
 
 Do You know Snowflake? The tiny little Rectangle, developed by TheTorProject, that helps people in censored countries  
 to circumvent censorship. Why don't we take unnecessary parts of some WebSites to replace them with a Helping Snowflake?   
@@ -7,24 +7,18 @@ to circumvent censorship. Why don't we take unnecessary parts of some WebSites t
 SnowTube will inject a Snowflake into Websites that are ussually left open for a long time,
 for example Wikipedia, Youtube or some Online Magazines like the american New York Times or the german Spiegel.
 ## Mozilla Firefox Addon
-The current unstable version (github) is 2.0
-The current stable version (firefox addons) is 1.0.2
+The current version (github) is stable
+The current stable version (firefox addons) is 2.0
 
 ### Differences
-1.0.2 is only for YouTube
+There is currently no unstable version.
 
 ### When could we excpect the unstable version to be stable?
 In the best case we will update the add-on weekly.
 
-## To-Dos for v2.0
+## To-Dos for v3.0
 
-- [X] Fix the [Bugs](#known-bugs)
-- [X] Inject a Snowflake into YouTube
-- [X] Inject a Snowflake into Wikipedia
-- [X] Inject a Snowflake into the New York Times
-- [X] Inject a Snowflake into Spiegel
-- [X] Inject a Snowflake into Zeit
-- [X] Inject a Snowflake into Amazon
+- [ ] Fix the [Bugs](#known-bugs)
 
 ## Known Bugs
 - [X] YouTube: Snowflake will only be injected if you open the Video in the current tab.
