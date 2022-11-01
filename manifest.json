@@ -3,25 +3,33 @@
 	"name":"SnowTube",
 	"version":"1.0.3",
 
-	"description":"Helfen sie Menschenn in Ländern mit Zensur.",
+	"description":"Help People in censored countries.",
 
 	"permissions": [
- 		 "tabs","*://*.youtube.com/*","*://*.wikipedia.org/*"
+		"tabs",
+		"*://*.youtube.com/*",
+		"*://*.wikipedia.org/*",
+		"*://*.nytimes.com/*",
+		"*://*.spiegel.de/*",
+		"*://*.zeit.de/*",
+		"*://*.amazon.de/*",
+		"*://*.amazon.com/*"
 	],
-	
-	"background": {
-	    "scripts": [
-	      "snowtube.js"
-	    ]
-	  },
 
 	"content_scripts": [
 		{
 			"matches": [
 				"*://*.youtube.com/*",
-				"*://*.wikipedia.org/*"
+				"*://*.wikipedia.org/*",
+				"*://*.nytimes.com/*",
+				"*://*.spiegel.de/*",
+				"*://*.zeit.de/*",
+				"*://*.amazon.de/*",
+				"*://*.amazon.com/*"
 			],
-			"js":["snowtube.js"]
+			"js":[
+				"snowtube.js"
+			]
 		}
 	],
 	"browser_specific_settings": {
