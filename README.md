@@ -7,29 +7,29 @@ to circumvent censorship. Why don't we take unnecessary parts of some WebSites t
 SnowTube will inject a Snowflake into Websites that are ussually left open for a long time,
 for example Wikipedia, Youtube or some Online Magazines like the american New York Times or the german Spiegel.
 ## Mozilla Firefox Addon
-The current Version (github) is 1.0.3
-The current available version (firefox addons) is 1.0.2
+The current unstable version (github) is 2.0
+The current stable version (firefox addons) is 1.0.2
 
 ### Differences
 1.0.2 is only for YouTube
 
-### When could we excpect the current Version in the Firefox Store?
-The version available in the store is never up to date, because we keep developing this Extension every day.
-The version available in the store will be updated weekly.
+### When could we excpect the unstable version to be stable?
+In the best case we will update the add-on weekly.
 
-## To-Dos for Release 1.0.3
+## To-Dos for v2.0
 
-- [ ] Fix the [Bugs](#known-bugs) *(optional)*
+- [X] Fix the [Bugs](#known-bugs)
 - [X] Inject a Snowflake into YouTube
 - [X] Inject a Snowflake into Wikipedia
 - [X] Inject a Snowflake into the New York Times
 - [X] Inject a Snowflake into Spiegel
 - [X] Inject a Snowflake into Zeit
-- [ ] Inject a Snowflake into Amazon
+- [X] Inject a Snowflake into Amazon
 
 ## Known Bugs
-- YouTube: Snowflake will only be injected if you open the Video in the current tab.
-- Wikipedia, NewYorkTimes: Snowflake might be injected multiple times, when reloading the extension
+- [X] YouTube: Snowflake will only be injected if you open the Video in the current tab.
+- [X] Wikipedia, NewYorkTimes: Snowflake might be injected multiple times, when reloading the extension.
+- [ ] YouTube: Videos opened via the "Home"-Page don't get their Snowflake-injection.
 
 ## Tor Statement
 This product is produced independently from the Tor® anonymity software and carries no guarantee from [The Tor Project](https://www.torproject.org/) about quality, suitability or anything else.
